@@ -1,0 +1,618 @@
+{
+  "GigabitEthernet1": {
+    "arp_timeout": "04:00:00",
+    "arp_type": "arpa",
+    "auto_negotiate": true,
+    "bandwidth": 1000000,
+    "counters": {
+      "in_broadcast_pkts": 0,
+      "in_crc_errors": 0,
+      "in_errors": 0,
+      "in_frame": 0,
+      "in_giants": 0,
+      "in_ignored": 0,
+      "in_mac_pause_frames": 0,
+      "in_multicast_pkts": 0,
+      "in_no_buffer": 0,
+      "in_octets": 2762227768,
+      "in_overrun": 0,
+      "in_pkts": 26288286,
+      "in_runts": 0,
+      "in_throttles": 0,
+      "in_watchdog": 0,
+      "last_clear": "4w2d",
+      "out_babble": 0,
+      "out_buffer_failure": 0,
+      "out_buffers_swapped": 0,
+      "out_collision": 0,
+      "out_deferred": 0,
+      "out_errors": 0,
+      "out_interface_resets": 0,
+      "out_late_collision": 0,
+      "out_lost_carrier": 0,
+      "out_mac_pause_frames": 0,
+      "out_no_carrier": 0,
+      "out_octets": 3899856027,
+      "out_pkts": 24810025,
+      "out_underruns": 0,
+      "out_unknown_protocl_drops": 51285,
+      "rate": {
+        "in_rate": 167000,
+        "in_rate_pkts": 191,
+        "load_interval": 300,
+        "out_rate": 176000,
+        "out_rate_pkts": 190
+      }
+    },
+    "delay": 10,
+    "duplex_mode": "full",
+    "enabled": true,
+    "encapsulations": {
+      "encapsulation": "arpa"
+    },
+    "flow_control": {
+      "receive": false,
+      "send": false
+    },
+    "ipv4": {
+      "192.168.87.6/24": {
+        "ip": "192.168.87.6",
+        "prefix_length": "24"
+      }
+    },
+    "keepalive": 10,
+    "last_input": "00:00:00",
+    "last_output": "00:00:00",
+    "line_protocol": "up",
+    "link_type": "auto",
+    "mac_address": "5000.0001.0000",
+    "media_type": "Virtual",
+    "mtu": 1500,
+    "oper_status": "up",
+    "output_hang": "never",
+    "phys_address": "5000.0001.0000",
+    "port_channel": {
+      "port_channel_member": false
+    },
+    "port_speed": "1000mbps",
+    "queues": {
+      "input_queue_drops": 0,
+      "input_queue_flushes": 0,
+      "input_queue_max": 375,
+      "input_queue_size": 2,
+      "output_queue_max": 40,
+      "output_queue_size": 0,
+      "queue_strategy": "fifo",
+      "total_output_drop": 0
+    },
+    "reliability": "255/255",
+    "rxload": "1/255",
+    "txload": "1/255",
+    "type": "CSR vNIC"
+  },
+  "GigabitEthernet2": {
+    "arp_timeout": "04:00:00",
+    "arp_type": "arpa",
+    "auto_negotiate": true,
+    "bandwidth": 1000000,
+    "counters": {
+      "in_broadcast_pkts": 0,
+      "in_crc_errors": 0,
+      "in_errors": 0,
+      "in_frame": 0,
+      "in_giants": 0,
+      "in_ignored": 0,
+      "in_mac_pause_frames": 0,
+      "in_multicast_pkts": 0,
+      "in_no_buffer": 0,
+      "in_octets": 468859592,
+      "in_overrun": 0,
+      "in_pkts": 3919564,
+      "in_runts": 0,
+      "in_throttles": 0,
+      "in_watchdog": 0,
+      "last_clear": "never",
+      "out_babble": 0,
+      "out_buffer_failure": 0,
+      "out_buffers_swapped": 0,
+      "out_collision": 0,
+      "out_deferred": 0,
+      "out_errors": 0,
+      "out_interface_resets": 2,
+      "out_late_collision": 0,
+      "out_lost_carrier": 0,
+      "out_mac_pause_frames": 0,
+      "out_no_carrier": 0,
+      "out_octets": 471987869,
+      "out_pkts": 3837186,
+      "out_underruns": 0,
+      "out_unknown_protocl_drops": 1,
+      "rate": {
+        "in_rate": 0,
+        "in_rate_pkts": 0,
+        "load_interval": 300,
+        "out_rate": 0,
+        "out_rate_pkts": 0
+      }
+    },
+    "delay": 10,
+    "duplex_mode": "full",
+    "enabled": true,
+    "encapsulations": {
+      "encapsulation": "arpa"
+    },
+    "flow_control": {
+      "receive": false,
+      "send": false
+    },
+    "ipv4": {
+      "10.0.0.2/30": {
+        "ip": "10.0.0.2",
+        "prefix_length": "30"
+      }
+    },
+    "keepalive": 10,
+    "last_input": "00:00:08",
+    "last_output": "00:00:29",
+    "line_protocol": "up",
+    "link_type": "auto",
+    "mac_address": "5000.0001.0001",
+    "media_type": "Virtual",
+    "mtu": 1500,
+    "oper_status": "up",
+    "output_hang": "never",
+    "phys_address": "5000.0001.0001",
+    "port_channel": {
+      "port_channel_member": false
+    },
+    "port_speed": "1000mbps",
+    "queues": {
+      "input_queue_drops": 0,
+      "input_queue_flushes": 0,
+      "input_queue_max": 375,
+      "input_queue_size": 0,
+      "output_queue_max": 40,
+      "output_queue_size": 0,
+      "queue_strategy": "fifo",
+      "total_output_drop": 0
+    },
+    "reliability": "255/255",
+    "rxload": "1/255",
+    "txload": "1/255",
+    "type": "CSR vNIC"
+  },
+  "GigabitEthernet3": {
+    "arp_timeout": "04:00:00",
+    "arp_type": "arpa",
+    "auto_negotiate": true,
+    "bandwidth": 1000000,
+    "counters": {
+      "in_broadcast_pkts": 0,
+      "in_crc_errors": 0,
+      "in_errors": 0,
+      "in_frame": 0,
+      "in_giants": 0,
+      "in_ignored": 0,
+      "in_mac_pause_frames": 0,
+      "in_multicast_pkts": 0,
+      "in_no_buffer": 0,
+      "in_octets": 65869870,
+      "in_overrun": 0,
+      "in_pkts": 266824,
+      "in_runts": 0,
+      "in_throttles": 0,
+      "in_watchdog": 0,
+      "last_clear": "never",
+      "out_babble": 0,
+      "out_buffer_failure": 0,
+      "out_buffers_swapped": 0,
+      "out_collision": 0,
+      "out_deferred": 0,
+      "out_errors": 0,
+      "out_interface_resets": 2,
+      "out_late_collision": 0,
+      "out_lost_carrier": 0,
+      "out_mac_pause_frames": 0,
+      "out_no_carrier": 0,
+      "out_octets": 30007091,
+      "out_pkts": 87645,
+      "out_underruns": 0,
+      "out_unknown_protocl_drops": 91810,
+      "rate": {
+        "in_rate": 0,
+        "in_rate_pkts": 0,
+        "load_interval": 300,
+        "out_rate": 0,
+        "out_rate_pkts": 0
+      }
+    },
+    "delay": 10,
+    "duplex_mode": "full",
+    "enabled": true,
+    "encapsulations": {
+      "encapsulation": "arpa"
+    },
+    "flow_control": {
+      "receive": false,
+      "send": false
+    },
+    "ipv4": {
+      "11.0.0.2/30": {
+        "ip": "11.0.0.2",
+        "prefix_length": "30"
+      }
+    },
+    "keepalive": 10,
+    "last_input": "00:00:08",
+    "last_output": "00:00:17",
+    "line_protocol": "up",
+    "link_type": "auto",
+    "mac_address": "5000.0001.0002",
+    "media_type": "Virtual",
+    "mtu": 1500,
+    "oper_status": "up",
+    "output_hang": "never",
+    "phys_address": "5000.0001.0002",
+    "port_channel": {
+      "port_channel_member": false
+    },
+    "port_speed": "1000mbps",
+    "queues": {
+      "input_queue_drops": 0,
+      "input_queue_flushes": 0,
+      "input_queue_max": 375,
+      "input_queue_size": 0,
+      "output_queue_max": 40,
+      "output_queue_size": 0,
+      "queue_strategy": "fifo",
+      "total_output_drop": 0
+    },
+    "reliability": "255/255",
+    "rxload": "1/255",
+    "txload": "1/255",
+    "type": "CSR vNIC"
+  },
+  "GigabitEthernet4": {
+    "arp_timeout": "04:00:00",
+    "arp_type": "arpa",
+    "auto_negotiate": true,
+    "bandwidth": 1000000,
+    "counters": {
+      "in_broadcast_pkts": 0,
+      "in_crc_errors": 0,
+      "in_errors": 0,
+      "in_frame": 0,
+      "in_giants": 0,
+      "in_ignored": 0,
+      "in_mac_pause_frames": 0,
+      "in_multicast_pkts": 0,
+      "in_no_buffer": 0,
+      "in_octets": 8148,
+      "in_overrun": 0,
+      "in_pkts": 194,
+      "in_runts": 0,
+      "in_throttles": 0,
+      "in_watchdog": 0,
+      "last_clear": "4w2d",
+      "out_babble": 0,
+      "out_buffer_failure": 0,
+      "out_buffers_swapped": 0,
+      "out_collision": 0,
+      "out_deferred": 0,
+      "out_errors": 0,
+      "out_interface_resets": 0,
+      "out_late_collision": 0,
+      "out_lost_carrier": 0,
+      "out_mac_pause_frames": 0,
+      "out_no_carrier": 0,
+      "out_octets": 29999590,
+      "out_pkts": 87615,
+      "out_underruns": 0,
+      "out_unknown_protocl_drops": 0,
+      "rate": {
+        "in_rate": 0,
+        "in_rate_pkts": 0,
+        "load_interval": 300,
+        "out_rate": 0,
+        "out_rate_pkts": 0
+      }
+    },
+    "delay": 10,
+    "duplex_mode": "full",
+    "enabled": true,
+    "encapsulations": {
+      "encapsulation": "arpa"
+    },
+    "flow_control": {
+      "receive": false,
+      "send": false
+    },
+    "ipv4": {
+      "12.0.0.2/30": {
+        "ip": "12.0.0.2",
+        "prefix_length": "30"
+      }
+    },
+    "keepalive": 10,
+    "last_input": "00:43:21",
+    "last_output": "00:00:09",
+    "line_protocol": "up",
+    "link_type": "auto",
+    "mac_address": "5000.0001.0003",
+    "media_type": "Virtual",
+    "mtu": 1500,
+    "oper_status": "up",
+    "output_hang": "never",
+    "phys_address": "5000.0001.0003",
+    "port_channel": {
+      "port_channel_member": false
+    },
+    "port_speed": "1000mbps",
+    "queues": {
+      "input_queue_drops": 0,
+      "input_queue_flushes": 0,
+      "input_queue_max": 375,
+      "input_queue_size": 0,
+      "output_queue_max": 40,
+      "output_queue_size": 0,
+      "queue_strategy": "fifo",
+      "total_output_drop": 0
+    },
+    "reliability": "255/255",
+    "rxload": "1/255",
+    "txload": "1/255",
+    "type": "CSR vNIC"
+  },
+  "Loopback101": {
+    "bandwidth": 8000000,
+    "counters": {
+      "in_abort": 0,
+      "in_broadcast_pkts": 0,
+      "in_crc_errors": 0,
+      "in_errors": 0,
+      "in_frame": 0,
+      "in_giants": 0,
+      "in_ignored": 0,
+      "in_multicast_pkts": 0,
+      "in_no_buffer": 0,
+      "in_octets": 0,
+      "in_overrun": 0,
+      "in_pkts": 0,
+      "in_runts": 0,
+      "in_throttles": 0,
+      "last_clear": "never",
+      "out_buffer_failure": 0,
+      "out_buffers_swapped": 0,
+      "out_collision": 0,
+      "out_errors": 0,
+      "out_interface_resets": 0,
+      "out_octets": 0,
+      "out_pkts": 0,
+      "out_underruns": 0,
+      "out_unknown_protocl_drops": 0,
+      "rate": {
+        "in_rate": 0,
+        "in_rate_pkts": 0,
+        "load_interval": 300,
+        "out_rate": 0,
+        "out_rate_pkts": 0
+      }
+    },
+    "delay": 5000,
+    "enabled": true,
+    "encapsulations": {
+      "encapsulation": "loopback"
+    },
+    "ipv4": {
+      "101.0.0.1/32": {
+        "ip": "101.0.0.1",
+        "prefix_length": "32"
+      }
+    },
+    "keepalive": 10,
+    "last_input": "never",
+    "last_output": "never",
+    "line_protocol": "up",
+    "mtu": 1514,
+    "oper_status": "up",
+    "output_hang": "never",
+    "port_channel": {
+      "port_channel_member": false
+    },
+    "queues": {
+      "input_queue_drops": 0,
+      "input_queue_flushes": 0,
+      "input_queue_max": 75,
+      "input_queue_size": 0,
+      "output_queue_max": 0,
+      "output_queue_size": 0,
+      "queue_strategy": "fifo",
+      "total_output_drop": 0
+    },
+    "reliability": "255/255",
+    "rxload": "1/255",
+    "txload": "1/255",
+    "type": "Loopback"
+  },
+  "Loopback500": {
+    "bandwidth": 8000000,
+    "counters": {
+      "in_abort": 0,
+      "in_broadcast_pkts": 0,
+      "in_crc_errors": 0,
+      "in_errors": 0,
+      "in_frame": 0,
+      "in_giants": 0,
+      "in_ignored": 0,
+      "in_multicast_pkts": 0,
+      "in_no_buffer": 0,
+      "in_octets": 0,
+      "in_overrun": 0,
+      "in_pkts": 0,
+      "in_runts": 0,
+      "in_throttles": 0,
+      "last_clear": "never",
+      "out_buffer_failure": 0,
+      "out_buffers_swapped": 0,
+      "out_collision": 0,
+      "out_errors": 0,
+      "out_interface_resets": 0,
+      "out_octets": 0,
+      "out_pkts": 0,
+      "out_underruns": 0,
+      "out_unknown_protocl_drops": 0,
+      "rate": {
+        "in_rate": 0,
+        "in_rate_pkts": 0,
+        "load_interval": 300,
+        "out_rate": 0,
+        "out_rate_pkts": 0
+      }
+    },
+    "delay": 5000,
+    "enabled": true,
+    "encapsulations": {
+      "encapsulation": "loopback"
+    },
+    "ipv4": {
+      "1.1.1.1/32": {
+        "ip": "1.1.1.1",
+        "prefix_length": "32"
+      }
+    },
+    "keepalive": 10,
+    "last_input": "never",
+    "last_output": "never",
+    "line_protocol": "up",
+    "mtu": 1514,
+    "oper_status": "up",
+    "output_hang": "never",
+    "port_channel": {
+      "port_channel_member": false
+    },
+    "queues": {
+      "input_queue_drops": 0,
+      "input_queue_flushes": 0,
+      "input_queue_max": 75,
+      "input_queue_size": 0,
+      "output_queue_max": 0,
+      "output_queue_size": 0,
+      "queue_strategy": "fifo",
+      "total_output_drop": 0
+    },
+    "reliability": "255/255",
+    "rxload": "1/255",
+    "txload": "1/255",
+    "type": "Loopback"
+  },
+  "VirtualPortGroup1": {
+    "arp_timeout": "04:00:00",
+    "arp_type": "arpa",
+    "bandwidth": 750000,
+    "counters": {
+      "in_broadcast_pkts": 0,
+      "in_crc_errors": 0,
+      "in_errors": 2,
+      "in_frame": 0,
+      "in_giants": 0,
+      "in_ignored": 0,
+      "in_multicast_pkts": 0,
+      "in_no_buffer": 0,
+      "in_octets": 46696,
+      "in_overrun": 0,
+      "in_pkts": 666,
+      "in_runts": 0,
+      "in_throttles": 0,
+      "in_with_dribble": 0,
+      "last_clear": "never",
+      "out_babble": 0,
+      "out_buffer_failure": 0,
+      "out_buffers_swapped": 0,
+      "out_collision": 0,
+      "out_deferred": 0,
+      "out_errors": 81696,
+      "out_interface_resets": 0,
+      "out_late_collision": 0,
+      "out_lost_carrier": 0,
+      "out_no_carrier": 0,
+      "out_octets": 28103484,
+      "out_pkts": 81697,
+      "out_underruns": 0,
+      "out_unknown_protocl_drops": 0,
+      "rate": {
+        "in_rate": 0,
+        "in_rate_pkts": 0,
+        "load_interval": 300,
+        "out_rate": 0,
+        "out_rate_pkts": 0
+      }
+    },
+    "delay": 1000,
+    "enabled": true,
+    "encapsulations": {
+      "encapsulation": "arpa"
+    },
+    "ipv4": {
+      "192.168.30.1/24": {
+        "ip": "192.168.30.1",
+        "prefix_length": "24"
+      }
+    },
+    "last_input": "never",
+    "last_output": "00:00:03",
+    "line_protocol": "up",
+    "mac_address": "001e.bd40.62be",
+    "mtu": 1500,
+    "oper_status": "up",
+    "output_hang": "never",
+    "phys_address": "001e.bd40.62be",
+    "port_channel": {
+      "port_channel_member": false
+    },
+    "queues": {
+      "input_queue_drops": 0,
+      "input_queue_flushes": 0,
+      "input_queue_max": 375,
+      "input_queue_size": 0,
+      "output_queue_max": 40,
+      "output_queue_size": 0,
+      "queue_strategy": "fifo",
+      "total_output_drop": 0
+    },
+    "reliability": "128/255",
+    "rxload": "1/255",
+    "txload": "1/255",
+    "type": "Virtual Port Group"
+  },
+  "_exclude": [
+    "in_octets",
+    "in_pkts",
+    "out_octets",
+    "out_pkts",
+    "in_rate",
+    "in_rate_pkts",
+    "out_rate",
+    "out_rate_pkts",
+    "input_queue_size",
+    "in_broadcast_pkts",
+    "in_multicast_pkts",
+    "last_output",
+    "out_unknown_protocl_drops",
+    "last_input",
+    "input_queue_drops",
+    "out_interface_resets",
+    "rxload",
+    "txload",
+    "last_clear",
+    "in_crc_errors",
+    "in_errors",
+    "in_giants",
+    "unnumbered",
+    "mac_address",
+    "phys_address",
+    "out_lost_carrier",
+    "(Tunnel.*)",
+    "input_queue_flushes",
+    "reliability"
+  ]
+}

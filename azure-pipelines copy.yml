@@ -1,0 +1,38 @@
+# Python package
+# Create and test a Python package on multiple Python versions.
+# Add steps that analyze code, save the dist with the build record, publish to a PyPI-compatible index, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/python
+
+trigger:
+  - master 
+pool: demo-ciberc
+
+stages:
+  - stage: test
+    jobs:
+    - job: Trabajo_1_etapa_TEST
+      steps:
+      - script: |
+          echo "Esto es solo una prueba."
+          echo "##vso[task.setvariable variable=ejemplo_var;isOutput=true]No" #The variable ejemplo_var is set to true
+        name: DetermineResult
+      - script: echo $(DetermineResult.ejemplo_var)
+        name: echovar
+    - job: Trabajo_2_etapa_TEST
+      dependsOn: Trabajo_1_etapa_TEST
+      condition: eq(dependencies.Trabajo_1_etapa_TEST.outputs['DetermineResult.ejemplo_var'], 'Yes')
+      steps:
+      - script: |
+          echo "Esto es otro paso adicional ya que se cumplio el primer job"
+  
+  #stage B runs if DetermineResult task set doThing variable n stage A
+  - stage: deploy
+    dependsOn: test
+    jobs:
+    - job: Trabajo_1_etapa_deploy
+      condition: eq(stageDependencies.test.Trabajo_1_etapa_TEST.outputs['DetermineResult.ejemplo_var'], 'Yes') #map doThing and check if true
+      variables:
+        varFromStageA: $[ stageDependencies.test.Trabajo_1_etapa_TEST.outputs['DetermineResult.ejemplo_var'] ]
+      steps:
+      - bash: echo "Hola mundo desde el stage deploy, trabajo 1"
+      - script: echo $(varFromStageA)
